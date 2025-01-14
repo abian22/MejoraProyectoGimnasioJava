@@ -17,9 +17,5 @@ public class Gimnasio {
         System.out.println("Usuario " + usuario + " registrado en el gimnasio " + nombre + ".");
     }
 
-    public static void main(String[] args) {
-        Gimnasio miGimnasio = new Gimnasio("FitLife Gym");
-        miGimnasio.mostrarActividades();
-        miGimnasio.registrarUsuario("Juan Perez");
-    }
+
 }
