@@ -1,4 +1,5 @@
 abstract class Actividad {
+    
     protected String nombre;
     protected int intensidad;
     protected int duracion;
